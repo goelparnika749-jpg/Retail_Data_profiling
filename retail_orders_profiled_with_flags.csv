@@ -1,0 +1,13 @@
+order_id,order_date,customer_segment,city,category,quantity,unit_price,discount_pct,payment_status,order_date_parsed,quantity_num,discount_pct_num,unit_price_num,quality_flags
+RT-1001,2026-01-03,Student,Chennai,Learning Kit,2,799,10.0,Paid,2026-03-01,2,10.0,799,
+RT-1002,03/01/2026,Fresher,Bengaluru,Course Access,1,1499,0.0,Paid,,1,0.0,1499,invalid_date
+RT-1003,2026-01-05,Student,Chennai,Course Access,1,1499,,Pending,2026-05-01,1,,1499,missing_required_field; missing_discount_needs_approval
+RT-1004,2026-01-07,Professional,Hyderabad,Learning Kit,3,799,5.0,Paid,2026-07-01,3,5.0,799,duplicate_order_id
+RT-1004,2026-01-07,Professional,Hyderabad,Learning Kit,3,799,5.0,Paid,2026-07-01,3,5.0,799,duplicate_order_id
+RT-1005,2026-01-09,Fresher,,Mentor Session,1,999,0.0,Failed,2026-09-01,1,0.0,999,missing_required_field; blank_city
+RT-1006,2026-13-10,Student,Pune,Learning Kit,-1,799,10.0,Paid,2026-10-13,-1,10.0,799,invalid_quantity
+RT-1007,2026-01-12,Professional,Mumbai,Mentor Session,2,999,105.0,Paid,2026-12-01,2,105.0,999,invalid_discount
+RT-1008,2026-01-14,Fresher,Bengaluru,Course Access,two,1499,0.0,Pending,,,0.0,1499,invalid_date; invalid_quantity
+RT-1009,2026-01-16,Student,Chennai,Learning Kit,1,799,0.0,Paid,,1,0.0,799,invalid_date
+RT-1010,2026-01-18,Professional,Delhi,Course Access,2,1499,15.0,Refunded,,2,15.0,1499,invalid_date
+RT-1011,,Student,Kochi,Mentor Session,1,999,0.0,Paid,,1,0.0,999,missing_required_field; invalid_date

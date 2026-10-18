@@ -1,0 +1,12 @@
+check,flagged_rows,threshold,action
+missing_required_field,3,0 rows,Review required fields; contact source owner
+blank_city,1,0 rows,Request missing billing city
+invalid_date,5,0 rows,Confirm date format and correct invalid dates at source
+invalid_segment,0,0 rows,Normalize valid labels; review unknown values
+invalid_category,0,0 rows,Normalize valid labels; review unknown values
+invalid_quantity,2,0 rows,Correct quantity from source; do not guess text values
+invalid_unit_price,0,0 rows,Confirm price from source
+invalid_discount,1,0 rows,Correct discount or obtain approval
+missing_discount_needs_approval,1,0 rows,Ask business owner whether missing means zero
+invalid_payment_status,0,0 rows,Normalize valid statuses; review unknown values
+duplicate_order_id,2,0 rows,Confirm duplicate semantics before deduplication
